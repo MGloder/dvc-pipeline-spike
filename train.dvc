@@ -1,0 +1,13 @@
+md5: dc29a1becb8d7c3122dad3fd01c42987
+cmd: python code/train_model.py data/matrix-train.pkl 20170426 data/model.pkl
+deps:
+- md5: 2ae37349103f07a7d614ca939d1bf467
+  path: code/train_model.py
+- md5: e293979adcbf1afdd7563bb6ca7a2688
+  path: data/matrix-train.pkl
+outs:
+- md5: c8ef2a31f2d910547ac0f4fdfb47ced9
+  path: data/model.pkl
+  cache: true
+  metric: false
+  persist: false

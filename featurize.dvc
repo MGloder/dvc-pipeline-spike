@@ -1,0 +1,21 @@
+md5: c4539d5aafb042af381d009552df247d
+cmd: python code/featurization.py data/Posts-train.tsv data/Posts-test.tsv data/matrix-train.pkl
+  data/matrix-test.pkl
+deps:
+- md5: b36ea8a9facc6c756fff76710675fc2f
+  path: code/featurization.py
+- md5: 9916619870195e5b5363931b4fdc551c
+  path: data/Posts-train.tsv
+- md5: df96975a3e98890294f4ab248784aa5c
+  path: data/Posts-test.tsv
+outs:
+- md5: e293979adcbf1afdd7563bb6ca7a2688
+  path: data/matrix-train.pkl
+  cache: true
+  metric: false
+  persist: false
+- md5: 8b1a64c6874a5382c1cf95a34b46d995
+  path: data/matrix-test.pkl
+  cache: true
+  metric: false
+  persist: false
