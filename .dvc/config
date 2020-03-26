@@ -1,2 +1,4 @@
+[core]
+    remote = my-local
 ['remote "my-local"']
     url = /tmp/dvc-pipeline
