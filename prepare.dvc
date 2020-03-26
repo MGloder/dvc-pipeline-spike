@@ -1,5 +1,5 @@
-md5: cef754a218ef6fdaa36e61e2c286de30
-cmd: python code/xml_to_tsv.py data/Posts.xml data/Posts2.tsv
+md5: 4eb7faeb42e5518ac1b27b83e3e36c20
+cmd: python code/xml_to_tsv.py data/Posts.xml data/Posts.tsv
 deps:
 - md5: dc40e1d831dd46345d5db8d326433b3b
   path: code/xml_to_tsv.py
@@ -7,7 +7,7 @@ deps:
   path: data/Posts.xml
 outs:
 - md5: 665f20ef829fc3664eff4d71952d5b87
-  path: data/Posts2.tsv
+  path: data/Posts.tsv
   cache: true
   metric: false
   persist: false
